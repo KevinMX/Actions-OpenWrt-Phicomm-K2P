@@ -1,9 +1,16 @@
 # Archived.
 
 > padavan 是 ramips 最后的归宿。
-> ——https://github.com/immortalwrt/immortalwrt/discussions/528
+> ——天灵@https://github.com/immortalwrt/immortalwrt/discussions/528
 
-Please consider using [hanwckf/padavan-4.4](https://github.com/hanwckf/padavan-4.4), [MeIsReallyBa/padavan-4.4](https://github.com/MeIsReallyBa/padavan-4.4), [padavanonly/padavan-4.4](https://github.com/padavanonly/padavan-4.4) (with minor changes to MeIsReallyBa reoi), or the hiboy DRV_V5 version from [here](https://opt.cn2qq.com/padavan/K2P_DRV_V5_3.4.3.9-099.trx), which are all stable, with great performance, MTK HWNAT for both ethernet and wireless, SFE support, and last but not least, better WiFi. You can even use SQM QoS on padavan 4.4 branch.
+建议使用 [hanwckf/padavan-4.4](https://github.com/hanwckf/padavan-4.4), [MeIsReallyBa/padavan-4.4](https://github.com/MeIsReallyBa/padavan-4.4), [padavanonly/padavan-4.4](https://github.com/padavanonly/padavan-4.4) (在MeIsReallyBa的基础上有小改), 或者 [hiboy的DRV_V5/3.4版](https://opt.cn2qq.com/padavan/K2P_DRV_V5_3.4.3.9-099.trx). Padavan在稳定性、性能、HWNAT（无线&有线）、SFE、WiFi上都有优势，甚至你还可以在4.4内核的Padavan上用SQM QoS（会自动关闭HWNAT，对于500M以下宽带问题不大）。
+
+并不推荐在 K2P 上运行 Project V/X 之类的网络代理工具，放过MT7621和可怜的128MiB内存吧。
+
+> padavan is the final destination for ramips.
+> --Tianling Shen@https://github.com/immortalwrt/immortalwrt/discussions/528
+
+Please consider using [hanwckf/padavan-4.4](https://github.com/hanwckf/padavan-4.4), [MeIsReallyBa/padavan-4.4](https://github.com/MeIsReallyBa/padavan-4.4), [padavanonly/padavan-4.4](https://github.com/padavanonly/padavan-4.4) (with minor changes to MeIsReallyBa repo), or the hiboy DRV_V5 version from [here](https://opt.cn2qq.com/padavan/K2P_DRV_V5_3.4.3.9-099.trx), which are all stable, with great performance, MTK HWNAT for both ethernet and wireless, SFE support, and last but not least, better WiFi. You can even use SQM QoS on padavan 4.4 branch (HWNAT will be disabled automatically, for <500Mbps bandwidth it should be fine).
 
 Running network proxies such as Project V/X is not recommend, due to K2P's MT7621 chipset and 128MiB RAM.
 
