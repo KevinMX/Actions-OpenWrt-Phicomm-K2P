@@ -1,3 +1,12 @@
+# Archived.
+
+> padavan 是 ramips 最后的归宿。
+> ——https://github.com/immortalwrt/immortalwrt/discussions/528
+
+Please consider using [hanwckf/padavan-4.4](https://github.com/hanwckf/padavan-4.4), [MeIsReallyBa/padavan-4.4](https://github.com/MeIsReallyBa/padavan-4.4), [padavanonly/padavan-4.4](https://github.com/padavanonly/padavan-4.4) (with minor changes to MeIsReallyBa reoi), or the hiboy DRV_V5 version from [here](https://opt.cn2qq.com/padavan/K2P_DRV_V5_3.4.3.9-099.trx), which are all stable, with great performance, MTK HWNAT for both ethernet and wireless, SFE support, and last but not least, better WiFi. You can even use SQM QoS on padavan 4.4 branch.
+
+Running network proxies such as Project V/X is not recommend, due to K2P's MT7621 chipset and 128MiB RAM.
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
